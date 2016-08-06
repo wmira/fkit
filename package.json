@@ -1,0 +1,31 @@
+{
+  "name": "fkit-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "babel src --out-dir lib && cp package.json lib",
+    "test-watch": "mocha --compilers js:babel-register --recursive --watch "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmira/fkit.git"
+  },
+  "keywords": [
+    "functional, function utils, function"
+  ],
+  "author": "Warren Mira <warrenmira@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmira/fkit/issues"
+  },
+  "homepage": "https://github.com/wmira/fkit",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-register": "^6.11.6",
+    "mocha": "^3.0.1",
+    "should": "^10.0.0"
+  }
+}
