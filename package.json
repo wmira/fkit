@@ -1,10 +1,10 @@
 {
   "name": "fkit-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dist": "babel src --out-dir lib && cp package.json lib",
+    "dist": "babel src --out-dir lib && cp package.json README.md lib",
     "test-watch": "mocha --compilers js:babel-register --recursive --watch "
   },
   "repository": {
